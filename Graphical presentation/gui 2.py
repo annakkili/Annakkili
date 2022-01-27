@@ -1,0 +1,12 @@
+from tkinter import*
+obj=Tk()
+obj.geometry('300x200')
+obj.title("second GUI window")
+#hai=Label(obj,text="My first lable component",font=("arial",24),fg="blue",bg="green").place(x=100,y=200)
+#hii=Label(obj,text="My second lable component",font=("arial",24),fg="blue",bg="green").place(x=300,y=400)
+hai=Label(obj,text="My first lable component",font=("arial",24),fg="blue",bg="green")
+hii=Label(obj,text="My second lable component",font=("arial",24),fg="blue",bg="green")
+#hai.grid(row=0,column=0)
+#hii.grid(row=0,column=1)
+hii.pack(padx=10,pady=20)
+obj.mainloop()
